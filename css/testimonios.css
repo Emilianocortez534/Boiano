@@ -1,0 +1,123 @@
+.testimonios{
+    min-height: 50vh;
+    padding: 30px 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonios-contenedor{
+    width: 100%;
+    display: inherit;
+    max-width: 1200px;
+    justify-content: inherit;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.testimonio-title {
+    
+    display: inline;
+    margin: auto;
+
+}
+hr{
+    width: 50%;
+    height: 4px;
+    border: none;
+    margin-top: 30px;
+}
+
+.testimonio-title h1{
+    margin-bottom: 60px;
+    font-size: 40px;
+    color: #009aff;
+    display: inline-flex;
+
+}
+
+.testimonios h1{
+    border-top:5px solid #009aff;
+}
+
+.testimonios-contenedor .slides{
+    width: 400%;
+    left: 0;
+    padding-left: 0;
+    padding-top: 20px;
+    overflow: hidden;
+    list-style: none;
+    position: relative;
+    transition: all .8s cubic-bezier(1, 0, 0, 1);
+}
+
+.slides li{
+    width: 25%;
+    position: relative;
+    float: left;
+}
+
+.testimonios-contenedor li p{
+    margin-top:  0;
+    max-width: 90%;
+    margin: auto;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.testimonios-contenedor li span.author{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 100;
+
+}
+
+.navegacion {
+    display: block;
+    list-style: none;
+    text-align: center;
+    border: 40px;
+    position: absolute;
+    width: 104px;
+    left: 50%;
+    margin-left: -39px;
+    margin-top: 41px;
+}
+
+.testimonios-contenedor input{
+    display: none;
+}
+
+.navegacion label{
+    float: left;
+    margin: 6px;
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid 2px #3838E3;
+}
+
+#radio1:checked ~ .slides{
+    transform: translateX(0%);
+}
+#radio2:checked ~ .slides{
+    transform: translateX(-25%);
+}
+#radio3:checked ~ .slides{
+    transform: translateX(-50%);
+}
+
+.navegacion label:hover {
+    cursor: pointer;
+}
+
+
+#radio1:checked ~ .navegacion label#radioSelect1,#radio2:checked ~ .navegacion label#radioSelect2,#radio3:checked ~ .navegacion label#radioSelect3{
+    background: #3838E3;
+}
+
+

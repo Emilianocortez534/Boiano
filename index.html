@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--META-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--TITLE-->
+    <title>Supermercado Boiano</title>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d7ba43b2d.js" crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="css/testimonios.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <div class="logo">
+                <a href="index.html">Supermecado Boiano</a>
+            </div>
+            <label for="nav-checked" class="nav_label">
+                <img src="img/menu.svg" class="nav_img" alt="">
+            </label>
+            <input type="checkbox" id="nav-checked" class="nav-input">
+             <div class="nav-bar">
+                <div class="items-bar">
+                    <i class="fas fa-clipboard-list"></i>
+                    <a href="#">Obtener Presupuesto</a>
+                </div>
+                <div class="items-bar">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:0223 489-7222">Llamar Ahora</a>
+                </div>
+                <div class="items-bar">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <a href="https://www.google.com/maps/dir//Supermercado+%22Boiano%22/data=!4m8!4m7!1m0!1m5!1m1!1s0x9584de64fbcf423f:0x426c11dbdca473fe!2m2!1d-57.567016599999995!2d-38.0409682" target="_blank">Cómo Llegar</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-background"></div>
+        <div class="home-info">
+            <div class="title">
+                <h1>Supermercado Boiano</h1>
+            </div>
+            <div class="paragraph">
+                <span>Supermercado de mar del plata</span>
+                <br>
+                <span>Abierto hoy hasta las 21:00 </span>
+                
+            </div>
+        </div>
+        <div class="button-presupuesto">
+            <a href="#">Obtener Presupuesto</a>
+        </div>
+    </section>
+    <section class="productos">
+        <div class="productos-contenedor">
+            <div class="productos-title">
+                <h1>PRODUCTOS</h1>
+            </div>
+            <div class="grid-productos">
+                <div class="items">
+                    <img src="img/prodructos/alcohol.jpg" alt="">
+                </div>
+                <div class="items">
+                    <img src="img/prodructos/especias.jpg" alt="">
+                </div>
+                <div class="items">
+                    <img src="img/prodructos/yerbas.jpg" alt="">
+                </div>
+                <div class="items">
+                    <img src="img/prodructos/salsa de tomate.jpg" alt="">
+                </div>
+                <div class="items">
+                    <img src="img/prodructos/higiene.jpg" alt="">
+                </div>
+                <div class="items">
+                    <img src="img/prodructos/limpieza.jpg" alt="">
+                </div>
+                <div class="items">
+                    <img src="img/prodructos/harinas.jpg" alt="">
+                </div>
+                <div class="items">
+                    <img src="img/prodructos/yerbas2.jpg" alt="">
+                </div>
+                <div class="items">
+                    <img src="img/prodructos/vinos.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonios">
+        <div class="testimonios-contenedor">
+            <div class="testimonio-title">
+                <h1>TESTIMONIOS</h1>
+            </div>
+            <hr>
+            <input type="radio" name="slides" id="radio1" checked>
+            <input type="radio" name="slides" id="radio2" checked>
+            <input type="radio" name="slides" id="radio3" checked>
+            <ul class="slides">
+                <li class="slide">
+                    <p>Muy buenos precios y mejor atencion👍</p>
+                    <span class="author"> ~Oscar P.</span>
+                </li>
+                <li class="slide">
+                    <p>Excelente</p>
+                    <span class="author"> ~Carlos L.</span>
+                </li>
+                <li class="slide">
+                    <p>Muy buena atención, excelentes ofertas</p>
+                    <span class="author"> ~Daniel</span>
+                </li>
+            </ul>
+            <div class="navegacion">
+                <label for="radio1" id="radioSelect1"></label>
+                <label for="radio2" id="radioSelect2"></label>
+                <label for="radio3" id="radioSelect3"></label>
+            </div>
+        </div>
+    </section>
+    <section class="contacto">
+        <div class="contacto-contenedor">
+            <div class="contacto-title">
+                <h1>CONTACTO</h1>
+            </div>
+            <div class="contactos-info">
+                <div class="items-contacto">
+                    <i class="fas fa-phone"></i>
+                    <span class="info">0223 489-7222</span>
+                    <div class="items-button phone">
+                        <a href="tel:0223 489-7222">Llamar Ahora</a>
+                    </div>
+                </div>
+                <div class="items-contacto">
+                    <div id="map"></div>
+                    <span>Cerrito 1468,</span><br>
+                    <span>Mar del plata,</span><br>
+                    <span>Buenos Aires</span><br>
+                    <div class="items-button">
+                        <a href="https://www.google.com/maps/dir//Supermercado+%22Boiano%22/data=!4m8!4m7!1m0!1m5!1m1!1s0x9584de64fbcf423f:0x426c11dbdca473fe!2m2!1d-57.567016599999995!2d-38.0409682" target="_blank">Como llegar</a>
+                    </div>
+                </div>
+                <div class="items-contacto">
+                    <i class="far fa-clock"></i><br>
+                    <span>lun:	8:00–13:30, 16:30–21:00 <br>
+                        mar:	8:00–13:30, 16:30–21:00 <br>
+                        mié:	8:00–13:30, 16:30–21:00 <br>
+                        jue:	8:00–13:30, 16:30–21:00 <br>
+                        vie:	8:00–13:30, 16:30–21:00 <br>
+                        sáb:	8:00–13:30, 16:30–21:00 <br>
+                        dom:	8:30–13:00
+                    </span>
+                </div>
+            </div>
+            <!-- 
+            superboiano_2000@yahoo.com.ar-->
+            
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="contenedor-footer">
+            <div class="copyright">
+                Copyright © 1994-2021. Boiano
+                All Rights Reserved
+            </div>
+    </footer>
+<script src="js/geo.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYeaPMWbL6h4EjauOsi3jAozjOulsfknU&callback=iniciarMap"></script>
+</body>
+</html>
